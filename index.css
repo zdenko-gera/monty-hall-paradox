@@ -1,0 +1,144 @@
+body, html {
+    height: 150vh;
+    background: linear-gradient(135deg, rgb(175, 255, 255), rgb(66, 94, 158));
+    font-family: 'Arial';
+}
+
+#simulation-container {
+    margin-top: 10vh;
+    width: 70vw;
+    height: 110vh;
+    background-color: rgba(0,0,0,0.4);
+    margin-inline: auto;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    margin-bottom: 10vh;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+#doors-container {
+    margin-top: 6vh;
+    width: 40%;
+    margin-inline: auto;
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius:10px
+}
+
+.door {
+    width: 100px;
+    height: 200px;
+    background-color: rgb(165, 165, 165);
+    display: inline-block;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.door:hover {
+    box-shadow:
+        0 0 25px 0 black
+    ;
+}
+
+#nyeremeny-helye {
+    color: red;
+    font-weight: bold;
+}
+
+#question-change {
+    text-align: center;
+}
+
+#positive-result {
+    color: green;
+}
+
+#negative-result {
+    color: darkred;
+}
+
+#result {
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-inline: auto;
+}
+
+#change {
+    border: 3px solid rgb(0, 189, 0);
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+#change:hover {
+    background-color: rgb(0, 189, 0);
+}
+
+#do-not-change {
+    border: 3px solid rgb(255, 29, 29);
+        transition: all 0.3s;
+}
+
+#do-not-change:hover {
+    background-color: rgb(255, 29, 29);
+}
+
+button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#reset-simulation-button {
+    border: none;
+    background-color: rgb(14, 14, 166);
+    padding: 15px 35px;
+    margin-top: 15px;
+}
+
+#reset-simulation-button:hover {
+    background-color: rgb(29, 29, 245);
+}
+
+#reset-simulation-button:active {
+    background-color: rgb(10, 10, 105);
+}
+
+#reset-simulation {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: greenyellow;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    position: absolute;
+    float: right;
+    bottom: 30px;
+    right: 30px;
+}
+
+a:hover {
+    background-color: rgb(117,177,31);
+}

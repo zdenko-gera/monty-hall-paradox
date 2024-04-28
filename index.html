@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monty Hall-paradoxon</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="simulation-container">
+        <h1>Monty Hall-paradoxon</h1>
+        <p>Az egyik ajtó mögött nyeremény található, a másik kettő mögött pedig semmi.</p>
+        <p id="instructions">Ön szerint melyik ajtó mögött van a nyeremény?</p>
+        <div id="doors-container">
+            <div id="first-door" class="door" onclick="firstClick()">1.</div>
+            <div id="second-door" class="door" onclick="secondClick()">2.</div>
+            <div id="third-door" class="door" onclick="thirdClick()">3.</div>
+        </div>
+        <!--<p>Tippem: <span id="tippem"></span></p>
+        <p>Nyeremeny helye: <span id="nyeremeny-helye"></span></p>-->
+        <div id="question-change"></div>
+        <div id="result"></div>
+        <div id="reset-simulation"></div>
+        <a href="https://hu.wikipedia.org/wiki/Monty_Hall-paradoxon" target="_blank">További információ</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
