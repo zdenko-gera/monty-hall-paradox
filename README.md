@@ -1,4 +1,4 @@
-# Monty Hall paradoxon szimuláció
+# Monty Hall-paradoxon szimuláció
 
 ***
 
