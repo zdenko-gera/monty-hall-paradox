@@ -1,5 +1,5 @@
-# Monty Hall-paradoxon szimuláció
+# Monty Hall-paradox simulation/mini-game
 
 ***
 
-*Készítette: Gera Zdenkó*
+*Made by Zdenkó Gera*
